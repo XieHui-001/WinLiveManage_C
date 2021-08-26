@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Setting>
+  <XmlSerializable>
+    <LiveSetting>
+      <LiveSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <Rate>2000000</Rate>
+        <Width>1280</Width>
+        <Height>720</Height>
+        <IsAutoStream>true</IsAutoStream>
+      </LiveSetting>
+    </LiveSetting>
+    <ProgramList>
+      <LaunchpadSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <IsAutoStart>true</IsAutoStart>
+        <IsInternal>false</IsInternal>
+        <DefaultPath>
+          <GamePath>D:\Program\IVREAL_MR</GamePath>
+          <SettingPath>D:\Program\IVREAL_MR\Setting</SettingPath>
+        </DefaultPath>
+        <DefaultPathTest>
+          <GamePath>D:\Program\IVREAL_MR_TEST</GamePath>
+          <SettingPath>D:\Program\IVREAL_MR_TEST\Setting</SettingPath>
+        </DefaultPathTest>
+        <SelfUpdateAddressInternal>ftp://192.168.0.158/LauncherIvreal</SelfUpdateAddressInternal>
+        <SelfUpdateAddress>http://download.talkdoo.com/LauncherIvreal</SelfUpdateAddress>
+        <ProgramList />
+      </LaunchpadSetting>
+    </ProgramList>
+  </XmlSerializable>
+</Setting>
